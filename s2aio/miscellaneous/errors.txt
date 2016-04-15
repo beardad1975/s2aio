@@ -1,5 +1,5 @@
 
-DIGITAL PIN MODE BLOCK
+設定數位腳位積木
 1-1      指定的腳位不是整數值
 1-2      指定的腳位超出了Arduino可用的範圍
 1-3      指定的腳位不支援輸入模式
@@ -11,40 +11,40 @@ DIGITAL PIN MODE BLOCK
 1-9      指定的模式無法辨認
 1-10     選定的模式不支援停用
 
-ANALOG PIN MODE BLOCK
+設定類比腳位積木
 2-1      選取的腳位號碼不是整數
 2-2      選取的腳位號碼不是合理的類比腳位號碼
 
-DIGITAL PIN WRITE
+數位輸出積木
 3-1      指定的腳位號碼不是整數值
 3-2      指定的腳位號碼無效
 3-3      指定的腳位沒有設定為數位輸出模式
 
-ANALOG PIN WRITE
+類比輸出積木
 4-1      指定的腳位號碼不是一個整數值
 4-2      指定腳位的號碼無效
 4-3      指定腳位並沒有設定為PWM模式
 4-4      PWM的值必需為整數值
 4-5      PWM的值必需在0到255的範圍內
 
-PLAY TONE
+播放音調積木
 5-1      指定的腳位號碼不是一個整數值
 5-2      指定的腳位號碼無效
 5-3      指定腳位並沒有設為音調模式
 5-4      頻率的值必需是整數
 5-5      時間的值必需是整數
 
-NO TONE
-6-1      Pin Must Be Specified as an Integer
-6-2      Pin number is not valid
-6-3      Pin was not properly configured
+關閉音調積木
+6-1      指定的腳位號碼必須是整數
+6-2      腳位號碼無效
+6-3      指定腳位沒有被設成音調模式
 
-SERVO POSITION
-7-1      Pin Must Be Specified as an Integer
-7-2      Pin number is not valid
-7-3      Pin was not properly configured
-7-4      Position must be specified as an integer
-7-5      Position must be in the range of 0 - 180
+伺服機積木
+7-1      指定的腳位號碼不是整數值
+7-2      指定的腳位號碼無效
+7-3      指定腳位並沒有設為伺服機模式
+7-4      轉動角度必須是整數值
+7-5      轉動角度必須在0到180的範圍內
 
 DIGITAL_READ (Snap! Only)
 8-1      Pin Must Be Specified as an Integer
