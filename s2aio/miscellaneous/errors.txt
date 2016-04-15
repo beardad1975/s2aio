@@ -1,38 +1,38 @@
 
 DIGITAL PIN MODE BLOCK
-1-1      Pin Must Be Specified as an Integer
-1-2      Pin number exceeds the maximum number of pins for the arduino
-1-3      Pin does not support digital input mode
-1-4      Pin does not support digital output mode
-1-5      Pin does support PWM mode
-1-6      Pin does not support servo mode
-1-7      Pin does not support tone mode
-1-8      Pin does not support SONAR mode
-1-9      Unknown Pin Mode specified
-1-10     Pin must be input mode to be disabled
+1-1      指定的腳位不是整數值
+1-2      指定的腳位超出了Arduino可用的範圍
+1-3      指定的腳位不支援輸入模式
+1-4      指定的腳位不支援輸出模式
+1-5      指定的腳位不支援PWM模式
+1-6      指定的腳位不支援伺服機模式
+1-7      指定的腳位不支援音調模式
+1-8      指定的腳位不支援超音波模式
+1-9      指定的模式無法辨認
+1-10     選定的模式不支援停用
 
 ANALOG PIN MODE BLOCK
-2-1      Pin Must Be Specified as an Integer
-2-2      Pin is not a valid analog pin
+2-1      選取的腳位號碼不是整數
+2-2      選取的腳位號碼不是合理的類比腳位號碼
 
 DIGITAL PIN WRITE
-3-1      Pin Must Be Specified as an Integer
-3-2      Pin number is invalid
-3-3      Pin is not configured for digital output
+3-1      指定的腳位號碼不是整數值
+3-2      指定的腳位號碼無效
+3-3      指定的腳位沒有設定為數位輸出模式
 
 ANALOG PIN WRITE
-4-1      Pin Must Be Specified as an Integer
-4-2      Pin number is invalid
-4-3      Pin is not configured for PWM output
-4-4      Value must be specified as an integer
-4-5      Value must be in the range of 0-255
+4-1      指定的腳位號碼不是一個整數值
+4-2      指定腳位的號碼無效
+4-3      指定腳位並沒有設定為PWM模式
+4-4      PWM的值必需為整數值
+4-5      PWM的值必需在0到255的範圍內
 
 PLAY TONE
-5-1      Pin Must Be Specified as an Integer
-5-2      Pin number is not valid
-5-3      Pin was not properly configured
-5-4      Frequency must be specified as an integer
-5-5      Duration must be specified as an integer
+5-1      指定的腳位號碼不是一個整數值
+5-2      指定的腳位號碼無效
+5-3      指定腳位並沒有設為音調模式
+5-4      頻率的值必需是整數
+5-5      時間的值必需是整數
 
 NO TONE
 6-1      Pin Must Be Specified as an Integer
